@@ -32,6 +32,7 @@ Builder2D currently supports:
 - `.bmp`
 - `.mp3`
 - `.wav`
+- `.ogg`
 
 ---
 
@@ -44,8 +45,6 @@ install.bat
 ```
 
 This will install the `builder2d` library.
-
-> **Note:** `install.bat` is not ready yet.
 
 ---
 ## Requirements
