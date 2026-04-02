@@ -1,6 +1,14 @@
 # Builder2D
-
 Builder2D is a python-based game framework inspired by pygame using ***PYSDL2***
+And don't worry about displaying
+Builder2D auto-draws all entity with shapes of picure
+
+# Supportive
+Builder2D supports some file formats
+-Picture
+.png, .bmp
+-Audio
+.mp3, .wav
 
 # Installing
 In the folder run install.cmd and it will install builder2d library
@@ -43,6 +51,23 @@ click = SoundEffect("click.mp3")
 music.play()
 click.play()
 ```
+# Images
+We need an entity for a picture
+```
+from builder2d import *
+
+game = Game("ProjectWindowName", width=yourWidth, height=yourHeight, borderless=True)
+scene = Scene("Main", background=Color(59,59,59), gravity=1600)
+
+image = GameObject("Image", 0, 0)"
+player.add_component(SpriteRenderer.from_image("image.png", 100, 100)
+
+scene.add(image)
+
+game.load_scene(scene)
+game.run()
+```
+
 # GameObject
 ```
 1. entity_name = GameObject("Name", xPos, yPos)
