@@ -10,6 +10,7 @@ In the folder run install.cmd and it will install builder2d library
 scripting will be in classes like example
 
 # EXAMPLES
+# Platformer Player Movement
 ```
 class PlayerController(Script):
 
@@ -29,7 +30,7 @@ class PlayerController(Script):
         if (Input.key_pressed("space") or Input.key_pressed("w") or Input.key_pressed("up")) and self.rb.is_grounded:
             self.rb.velocity.y = -900
 ```
--import and play music or sound
+# Music and SFX
 ```
 music = Music("calmStream.mp3")
 click = SoundEffect("click.mp3")
@@ -38,7 +39,6 @@ click.play()
 ```
 # GameObject
 ```
-GameObject will have three main functions:
 1. entity_name = GameObject("Name", xPos, yPos)
 2. add_component(componentName) This will add component such as RigidBody, BoxCollider, Animator
 3. add_script(className) This will dd functionality to the entity
