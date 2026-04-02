@@ -5,10 +5,7 @@ Builder2D auto-draws all entity with shapes of picure
 
 # Supportive
 Builder2D supports some file formats
--Picture
-.png, .bmp
--Audio
-.mp3, .wav
+.png, .bmp, .mp3, .wav
 
 # Installing
 In the folder run install.cmd and it will install builder2d library
