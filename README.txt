@@ -17,6 +17,11 @@ scripting will be in classes like example
 # EXAMPLES
 # Platformer Player Movement
 ```
+from mandaw import *
+
+mandaw = Mandaw(title = "Window!", width = 800, height = 600, bg_color = (0, 0, 0, 255))
+
+mandaw.loop()
 python
 class PlayerController(Script):
 
