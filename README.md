@@ -49,3 +49,22 @@ click.play()
 2. add_component(componentName) This will add component such as RigidBody, BoxCollider, Animator
 3. add_script(className) This will dd functionality to the entity
 ```
+# Project Set-Up
+# Borderless Fullscreen
+```
+from builder2d import *
+
+game = Game("ProjectWindowName", fullscreen_desktop=True)
+scene = Scene("Main", background=Color(59,59,59), gravity=1600)
+game.load_scene(scene)
+game.run()
+```
+# Borderless Not Fullscreen
+```
+from builder2d import *
+
+game = Game("ProjectWindowName", width=yourWidth, height=yourHeight, borderless=True)
+scene = Scene("Main", background=Color(59,59,59), gravity=1600)
+game.load_scene(scene)
+game.run()
+```
