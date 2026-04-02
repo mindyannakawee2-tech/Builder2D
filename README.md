@@ -68,3 +68,26 @@ scene = Scene("Main", background=Color(59,59,59), gravity=1600)
 game.load_scene(scene)
 game.run()
 ```
+# Console Template
+```
+from builder2d import *
+
+updatedTime = 0
+showConsole = False
+
+class GameConsole(Script):
+    def update(self):
+        global updatedTime
+        updatedTime += 1
+        if showConsole:
+            print("Tick:", updatedTime)
+
+consoled = GameObject("Console", 0, 0)
+consoled.add_script(GameConsole())
+
+scene.add(consoled)
+
+game.load_scene(scene)
+game.run()
+print("Ended at Tick:", updatedTime)
+```
