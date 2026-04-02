@@ -307,18 +307,6 @@ Builder2D aims to be:
 
 ---
 
-## License
-
-Add your license here.
-
-Example:
-
-```text
-MIT License
-```
-
----
-
 ## Author
-
+c0b41t aka mindyannakawee2-tech
 Made with Python and PYSDL2.
