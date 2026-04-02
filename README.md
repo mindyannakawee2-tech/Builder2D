@@ -169,6 +169,16 @@ game = Game(title="My Game", fullscreen_desktop=True)
 game = Game(title="My Game", width=1280, height=720, borderless=True)
 ```
 
+### Window Icon
+```python
+game = Game(
+    title="My Game",
+    width=960,
+    height=540,
+    icon_path="assets/icon.png",
+)
+```
+
 ### Main methods
 
 ```python
