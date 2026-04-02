@@ -125,27 +125,7 @@ Examples of components:
 ```python
 entity.add_script(MyScript())
 ```
-
 ---
-
-## Scripting
-
-Builder2D scripting uses Python classes.
-
-Scripts should inherit from `Script`.
-
-### Script Structure
-
-```python
-class MyScript(Script):
-
-    def start(self):
-        pass
-
-    def update(self):
-        pass
-```
-
 ### Common Script Functions
 
 - `start()` → called when the object starts
