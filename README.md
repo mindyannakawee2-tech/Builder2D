@@ -8,7 +8,7 @@ Builder2D supports some file formats
 .png, .bmp, .mp3, .wav
 
 # Installing
-In the folder run install.cmd and it will install builder2d library
+In the folder run install.bat(not ready yet) and it will install builder2d library
 
 # Scripting
 ***SCRIPTING*** in Builder2D will need some knowledge in ***PYTHON***
