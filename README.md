@@ -17,6 +17,7 @@ scripting will be in classes like example
 # EXAMPLES
 # Platformer Player Movement
 ```
+python
 class PlayerController(Script):
 
     def start(self):
