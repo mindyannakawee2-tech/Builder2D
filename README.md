@@ -29,6 +29,12 @@ class PlayerController(Script):
         
         if (Input.key_pressed("space") or Input.key_pressed("w") or Input.key_pressed("up")) and self.rb.is_grounded:
             self.rb.velocity.y = -900
+
+player = GameObject("Player", 120, 100)
+player.add_component(SpriteRenderer(45, 45, Colors.CYAN))
+player.add_component(BoxCollider2D(0, 0, 45, 45))
+player.add_component(Rigidbody2D(gravity_scale=1.0))
+player.add_script(PlayerController())
 ```
 # Music and SFX
 ```
