@@ -1,5 +1,7 @@
 # Builder2D
 
+> **Note:** `Builder2D` is moved to itch.io at https://c0b41t.itch.io/builder2d.
+
 ![img_alt](https://github.com/mindyannakawee2-tech/Builder2D/blob/85d853caa1c77d9dd37fbaa8988ff33cb06d90cf/builder2Dicon.png)
 
 **Builder2D** is a Python-based 2D game framework inspired by **pygame**, built with **PYSDL2**.
